@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: #f1f5f9;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e6f0;
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    color: #1e3a8a;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e8e5e5;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+/* Sections */
+section {
+    padding: 80px 60px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #180303;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+}
+
+.hero span {
+    color: #60a5fa;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #dbeafe;
+}
+
+.btn {
+    padding: 12px 30px;
+    background: #2563eb;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e40af;
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    color: #130101;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #dbeafe;
+    margin-top: 20px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: #dbeafe;
+    color: #1e3a8a;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid #2563eb;
+}
+
+/* Projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.95);
+    color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #dbeafe;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563eb;
+}
+
+/* Tech tags */
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.tech span {
+    background: #dbeafe;
+    border: 1px solid #2563eb;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: #1e3a8a;
+}
+
+/* Contact links */
+.card a {
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #1a1a1a;
+    border-top: 1px solid #dbeafe;
+    margin-top: 60px;
+}
